@@ -1,2 +1,1 @@
-# available in iTerm2 >= 3.0.0
-curl -sL http://bit.ly/robert_park | imgcat
+bash <(curl -s https://raw.githubusercontent.com/gnachman/iTerm2/master/tests/imgcat) <(curl -sL http://bit.ly/robert_park)
